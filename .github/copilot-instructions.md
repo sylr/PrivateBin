@@ -12,7 +12,7 @@
 
 ### Prerequisites
 
-- **PHP:** 7.4+ (recommended: latest stable 7.x or 8.x)
+- **PHP:** 7.4+ (recommended: 8.2.35, 8.3.36, 8.4.27, 8.5.12 or later, due to CVE-2026-109618 and CVE-2026-109619)
 - **Composer:** For dependency management (`composer install`)
 - **Node.js & npm:** Only required for running JavaScript unit tests. **Main JS logic must remain browser-compatible!**
 - **Recommended Environment:** Unix-like OS (Linux, macOS) with Apache or Nginx for full demo.

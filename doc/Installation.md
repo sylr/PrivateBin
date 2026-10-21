@@ -34,6 +34,12 @@ for more information.
 ### Minimal Requirements
 
 - PHP version 7.4 or above
+  - We strongly recommend PHP 8.2.35, 8.3.36, 8.4.27, 8.5.12 or later within
+    their respective branch, or a distribution package with the fixes
+    backported. Earlier releases are affected by the remote code execution
+    vulnerabilities [CVE-2026-109618](https://www.cve.org/CVERecord?id=CVE-2026-109618)
+    and [CVE-2026-109619](https://www.cve.org/CVERecord?id=CVE-2026-109619).
+    PHP 8.1 and older receive no official fix.
 - PHP with zlib extension
 - some disk space and the capability to create files and folders in the
   installation directory and the `PATH` defined in index.php
